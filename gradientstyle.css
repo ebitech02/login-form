@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:ital,wght@0,200;0,400;0,600;0,700;1,300&family=Poppins:wght@200;400;600;700;900&family=Roboto&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(-160deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 3em auto;
+    height: auto;
+}
+
+form {
+    background-color: white;
+    width: 340px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-weight: bolder;
+}
+
+label {
+    font-size: small;
+    margin-left: 2em;
+}
+
+input[type="text"] {
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #aaa;
+    margin: 10px 20px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 3s;
+}
+
+input[type="password"] {
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 10px 20px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 3s;
+}
+
+.input-icons {
+    position: relative;
+    font-size: small;
+}
+
+.input-icons input[type="text"] {
+    padding-left: 30px;
+}
+
+.input-icons input[type="password"] {
+    padding-left: 30px;
+}
+
+.input-icons i {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding: 10px;
+}
+
+p {
+    text-align: right;
+    font-size: smaller;
+}
+
+p a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+p a:hover,
+a:focus {
+    color: rgb(133, 9, 133);
+}
+
+button {
+    color: white;
+    margin: 2em 2em;
+    background: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
+    padding: 10px 120px;
+    font-size: "Roboto";
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: #333;
+    transition: 2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sign {
+    text-align: center;
+    font-size: smaller;
+    color: #333;
+    margin-left: 25px;
+}
+
+.icons {
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.fa-brands {
+    padding: 5px;
+    font-size: 25px;
+}
+
+.fa-brands:hover {
+    transition: 2s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.fbk {
+    color: blue;
+}
+
+.bird {
+    color: rgb(58, 143, 172);
+}
+
+.gmail {
+    color: rgb(194, 77, 34);
+}
